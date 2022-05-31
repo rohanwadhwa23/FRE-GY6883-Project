@@ -1,9 +1,9 @@
 # FRE-GY6883-Project
 ## Evaluate the impact of quarterly earnings report on stock price movement
 
-• Used liburl to retrieve historical price data from eodhistoricaldata.com. The adjusted close prices for selected Russell 3000 stocks and IWV (Russell 3000 ETF used as market benchmark) is stored into memory.
+• Used libcurl to retrieve historical price data from eodhistoricaldata.com. The adjusted close prices for selected Russell 3000 stocks and IWV (Russell 3000 ETF used as market benchmark) is stored into memory.
 
-• Based on the 2nd quarter of 2022 earnings announcement for Russell 3000 stocks
+• Based on the 2nd quarter of 2021 earnings announcement for Russell 3000 stocks
 (See the Earnings Announcements sheet), sorted all the surprise% in ascending order, and split all the stocks into 3 groups with relatively equivalent numbers of stocks:
 i. Highest surprise group: Beat Estimate Group
 ii. Lowest surprise group: Miss Estimate Group
