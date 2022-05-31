@@ -10,8 +10,7 @@ ii. Lowest surprise group: Miss Estimate Group
 iii. The rest stocks in between: Meet Estimate Group
 
 • Implemented Bootstrapping:
-a. Randomly selecting 80 stocks from each group, total 240 stocks.
-b. Used libcurl lib to retrieve 2N+1 days of historical prices for Russell 3000 stocks and ETF ticker IWV (used as market benchmark) around the date of earning release. N is integer which must be greater or equal to 60, will be entered by users. Users will be warned if there are not enough historical prices for 2N+1.
+Randomly selecting 80 stocks from each group, total 240 stocks. Used libcurl lib to retrieve 2N+1 days of historical prices for Russell 3000 stocks and ETF ticker IWV (used as market benchmark) around the date of earning release. N is integer which must be greater or equal to 60, will be entered by users. Users will be warned if there are not enough historical prices for 2N+1.
 
 • The stocks and their corresponding price information for each group is stored in an STL map, with stock symbol as its keys.
 
